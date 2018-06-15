@@ -1,0 +1,10 @@
+service: hackernews-node
+
+stage: dev
+
+datamodel: datamodel.graphql
+
+secret: hackernews-password
+
+cluster: public-glacierthorn-895/prisma-us1
+endpoint: https://us1.prisma.sh/public-glacierthorn-895/hackernews-node/dev
